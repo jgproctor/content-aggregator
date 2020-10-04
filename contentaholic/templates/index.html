@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1 class=title>{% block title %}Contentaholic{% endblock %}</h1>
+{% endblock %}
+{% block content %}
+    {% for source in sources %}
+        <h2>{{ source.url }}</h2>
+    {% endfor %}
+{% endblock %}
