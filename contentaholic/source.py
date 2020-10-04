@@ -6,3 +6,4 @@ class Source(object):
 
     def addArticle(heading, url):
         self.articles.append((heading, url))
+        
